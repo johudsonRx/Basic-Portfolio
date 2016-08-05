@@ -6,7 +6,7 @@ html, body {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 
 }
-.icon{
+.icons{
 	position: relative;
 	top: -19px;
 	left: -19px;
@@ -26,6 +26,10 @@ html, body {
     float: right;
     right: 100px;
      }
+ 
+ #about {
+ 	
+ }
 
 .header h2 {
 	position: absolute;
@@ -39,8 +43,10 @@ html, body {
 }
 
 .border1 {
+	
 	height:5px;
 	background-color: #cccccc;
+	
 }
 
 
@@ -54,6 +60,20 @@ html, body {
 
 	
 }
+
+.btn a {
+  position: absolute;
+  background-color: teal;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 25px;
+  right: 1000px;
+  bottom: 101px;
+
+}
+
 
  #mainsection {
   
@@ -85,9 +105,53 @@ html, body {
 
  }
 
- .single p {
+ #name {
+ 	position: absolute;
+    margin-left: 23px;
+    bottom: 444px;
+ }
+
+
+
+ .name input {
+    position: absolute;
+	width: 600px;
+    margin-left: 21px;
 
  }
+
+#email {
+ 	position: absolute;
+ 	left: 220px;
+ 	bottom: 401px;
+ }
+
+
+  .email input {
+  	position: absolute;
+    margin-left: 21px;
+    width:600px;
+    bottom: 379px;
+  }
+
+  
+ #message {
+	position: absolute;
+    left: 220px;
+    bottom: 357px;
+}
+
+
+.message input {
+	  width: 600px;
+    position: absolute;
+    margin-top: 67px;
+    margin-left: 21px;
+    height: 213px;
+    bottom: 135px;
+
+}
+
 
  .borderid {
  	height: 3px;
@@ -103,7 +167,8 @@ html, body {
  	background-color: white;
  	float: right;
  	margin-right: 200px;
- 	margin-top: 40px;
+ 	margin-top: -460px;
+
  }
 
  #sidebar h3 {
@@ -120,14 +185,27 @@ html, body {
 
  }
 
-
-
-.border2 {
-	height: 3px;
-	background-color: teal;
-
-
+#linkedin img {
+    position: relative;
+    max-width: 28%;
+    left: 95px;
+    bottom: -6px;
 }
+
+#github img {
+	position: relative;
+    max-width: 32%;
+    top: -78px;
+    border-radius: 116%;
+}
+
+#stack img {
+	position: relative;
+    left: 189px;
+    bottom: 165px;
+    max-width: 28%;
+}
+
 
 
 .footer {
@@ -137,9 +215,14 @@ html, body {
     
 }
 
+.border2 {
+	height: 3px;
+	background-color: teal;
 
 
 }
+
+
 
 
 
